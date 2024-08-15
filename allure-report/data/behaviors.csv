@@ -1,0 +1,5 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","0","Create read update and delete","4","0","Validate user is able to create new contact information","0"
+"0","","0","Create read update and delete","1","0","Validate user is able to update existing data in contact information table","0"
+"0","","0","Create read update and delete","1","0","Validate user is able to read expected data in contact information table","0"
+"0","","0","Create read update and delete","1","0","Validate user is able to delete data in contact information table","0"

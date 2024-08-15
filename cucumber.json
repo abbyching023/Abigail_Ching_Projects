@@ -1,0 +1,584 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-11T11:29:04.023Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7315494800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.initializeBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Validate user is able to create new contact information",
+        "description": "",
+        "id": "create-read-update-and-delete;validate-user-is-able-to-create-new-contact-information;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 600629400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.tearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5370241900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigates to website homepage",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.navigateToWebsiteHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2366542900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigated to contact information read window page",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.userNavigatedToContactInformationReadWindowPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188883800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be able to see contact information read page",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyReadContactInfoPageVisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17357309200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User creates new contact information using \"2\", \"Deadpool\", \"deadpool@test.com\", \"123456\" and \"Comedian\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Deadpool\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"deadpool@test.com\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"Comedian\"",
+                  "offset": 94
+                }
+              ],
+              "location": "StepDefinition.createStepDefinition.createNewContactInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289822700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to view added contact information",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.userShouldBeAbleToViewAddedContactInformation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crud"
+          },
+          {
+            "name": "@CreateNewContactInfo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-11T11:29:37.862Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4612292200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.initializeBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validate user is able to create new contact information",
+        "description": "",
+        "id": "create-read-update-and-delete;validate-user-is-able-to-create-new-contact-information;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 539666200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.tearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5170387800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigates to website homepage",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.navigateToWebsiteHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2366565800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigated to contact information read window page",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.userNavigatedToContactInformationReadWindowPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97938900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be able to see contact information read page",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyReadContactInfoPageVisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16219124100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User creates new contact information using \"3\", \"Wolverine\", \"wolverine@test.com\", \"124655\" and \"Renewed Contract\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Wolverine\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"wolverine@test.com\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"124655\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"Renewed Contract\"",
+                  "offset": 96
+                }
+              ],
+              "location": "StepDefinition.createStepDefinition.createNewContactInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 302814000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to view added contact information",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.userShouldBeAbleToViewAddedContactInformation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crud"
+          },
+          {
+            "name": "@CreateNewContactInfo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-11T11:30:07.218Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5712947200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.initializeBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Validate user is able to read expected data in contact information table",
+        "description": "",
+        "id": "create-read-update-and-delete;validate-user-is-able-to-read-expected-data-in-contact-information-table",
+        "after": [
+          {
+            "result": {
+              "duration": 778519900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.tearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5405917900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User navigates to website homepage",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.navigateToWebsiteHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2473874700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User navigated to contact information read window page",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.userNavigatedToContactInformationReadWindowPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 369771900,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User should be able to see contact information read page",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyReadContactInfoPageVisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3770190200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User verify existing contact information",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyExistingContactInformation()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crud"
+          },
+          {
+            "name": "@ReadContactInfo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-11T11:30:25.759Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5139920000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.initializeBrowser()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Validate user is able to update existing data in contact information table",
+        "description": "",
+        "id": "create-read-update-and-delete;validate-user-is-able-to-update-existing-data-in-contact-information-table;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 482497900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.tearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5455313300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User navigates to website homepage",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.navigateToWebsiteHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2334485300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User navigated to contact information read window page",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.userNavigatedToContactInformationReadWindowPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65957700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User should be able to see contact information read page",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyReadContactInfoPageVisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3253997400,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User verify existing contact information",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyExistingContactInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17111176200,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User updates an existing contact information using \"2\", \"Updated Name\", \"updated@test.com\", \"6890381\" and \"Senior Developer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Updated Name\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"updated@test.com\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"6890381\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"Senior Developer\"",
+                  "offset": 106
+                }
+              ],
+              "location": "StepDefinition.updateStepDefinition.userUpdatesExistingContactInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219866000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User should be able to view the modified contact information",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.userShouldBeAbleToViewTheModifiedContactInformation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crud"
+          },
+          {
+            "name": "@UpdateContactInfo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-11T11:30:59.845Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3950612800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.initializeBrowser()"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "Validate user is able to delete data in contact information table",
+        "description": "",
+        "id": "create-read-update-and-delete;validate-user-is-able-to-delete-data-in-contact-information-table",
+        "after": [
+          {
+            "result": {
+              "duration": 460148500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.Hooks.tearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5536627100,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "User navigates to website homepage",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.navigateToWebsiteHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2419507200,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User navigated to contact information read window page",
+            "match": {
+              "location": "StepDefinition.homePageStepDefinition.userNavigatedToContactInformationReadWindowPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97940300,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "User should be able to see contact information read page",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyReadContactInfoPageVisible()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3032131600,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "User verify existing contact information",
+            "match": {
+              "location": "StepDefinition.readStepDefinition.verifyExistingContactInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29867250900,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "User deletes existing contact information",
+            "match": {
+              "location": "StepDefinition.deleteStepDefinition.userNavigatedToContactInformationReadWindowPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@crud"
+          },
+          {
+            "name": "@DeleteAllContactInfo"
+          }
+        ]
+      }
+    ],
+    "name": "Create read update and delete",
+    "description": "\"\"\"\n  Test Cases Covered:\n  1. Navigate to crud contact information home and validate landing page\n  2. Create new contact information and verify added data\n  3. Read table field names and data values\n  4. Update an existing data and verify correctness\n  5. Delete all existing contact information from table\n\n\"\"\"",
+    "id": "create-read-update-and-delete",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/crud.feature",
+    "tags": []
+  }
+]
