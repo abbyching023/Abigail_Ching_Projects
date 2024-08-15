@@ -30,12 +30,12 @@ Feature: Create read update and delete
       | 3  | Wolverine        | wolverine@test.com | 124655 | Renewed Contract  |
       | 4  | Scarlet Witch    | witch@test.com     | 178539 | Buried            |
       | 5  | Iron Man         | ironman@test.com   | 145866 | Dr. Doom          |
-#      | 6  | Captain America  | capt@test.com      | 124557 | Human Torch only  |
-#      | 7  | The Hulk         | hulk@test.com      | 127537 | Big comedian guy  |
-#      | 8  | Vision           | vision@test.com    | 134357 | No more           |
-#      | 9  | SpiderMan        | spidey@test.com    | 756336 | The Forgotten     |
-#      | 10 | Doctor Strange   | strange@test.com   | 139676 | Cannot do the job |
-#      | 11 | Black Widow      | strange@test.com   | 423536 | The Fallen        |
+      | 6  | Captain America  | capt@test.com      | 124557 | Human Torch only  |
+      | 7  | The Hulk         | hulk@test.com      | 127537 | Big comedian guy  |
+      | 8  | Vision           | vision@test.com    | 134357 | No more           |
+      | 9  | SpiderMan        | spidey@test.com    | 756336 | The Forgotten     |
+      | 10 | Doctor Strange   | strange@test.com   | 139676 | Cannot do the job |
+      | 11 | Black Widow      | strange@test.com   | 423536 | The Fallen        |
 
 
 # Scripts covered:
