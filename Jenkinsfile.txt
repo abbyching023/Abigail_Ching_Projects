@@ -1,0 +1,5 @@
+#!groovy
+
+buildPlugin(useContainerAgent: true, forkCount: '1C', configurations: [
+  [platform: 'windows', jdk: 21],
+])
